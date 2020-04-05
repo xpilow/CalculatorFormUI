@@ -1,0 +1,16 @@
+name: CalculatorUI
+main: RezaG\CalculatorUI\Main
+api: [3.0.0, 4.0.0]
+version: 1.0
+author: xpilow
+
+commands:
+  cal:
+   description: Membantu kalian menghitung!
+   permission: calculator.ui
+   usage: /cal
+
+permissions:
+  calculator.ui:
+    default: op
+    description: Membantu kalian menghitung!
